@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.nav-item a{
+    font: 500;
+    font-size: 20px;
+    
+}
+.formlogo{
+    height: 60px;
+    width: 60px;
+    border: 1px;
+    border-radius: 50%;
+}
+.logo img{
+    height: 200px;
+    width: 200px;
+    border: 1px;
+    border-radius: 70%;
+    animation: fly 4s ease-in-out infinite;
+}
+@keyframes fly{
+
+    0%{
+        transform: translateY(-10%);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-10%);
+    }
+}
+.d-block{
+    height: 70vh;
+    width: 100%;
+}
+.ins2img{
+    height: 200px;
+    width: 200px;
+    border: 1px;
+    border-radius: 50%;
+}
+.Iborder{
+    border: 2px solid #4C4C6A;
+    border-radius: 10%;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #4C4C6A;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color:  #4C4C6A;
+}
+
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+.col-md-3{
+    background: rgb(196, 196, 196);
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: rgb(196, 196, 196);
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: black; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
+@media screen and (max-width: 770px) {
+    
+    .d-block{
+        max-width: 85vw;
+        height: 60vh;
+        
+    }  
+}
