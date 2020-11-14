@@ -1,12 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-
 }
 .nav-item a{
     font: 500;
     font-size: 20px;
-    
 }
 .formlogo{
     height: 60px;
@@ -103,9 +101,5 @@
 }	
 @media screen and (max-width: 770px) {
     
-    .d-block{
-        max-width: 85vw;
-        height: 60vh;
-        
-    }  
+    
 }
